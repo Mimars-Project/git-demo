@@ -1,4 +1,4 @@
-function isPalindrome(inputStr) {
+function isPalindrome(inputStr1) {
     if(inputStr !== null) {
         return inputStr === inputStr.split('').reverse().join('');
     }
